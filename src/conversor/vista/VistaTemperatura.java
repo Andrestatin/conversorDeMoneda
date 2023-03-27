@@ -20,36 +20,39 @@ public class VistaTemperatura extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLConvertir = new javax.swing.JLabel();
         jConvertirA = new javax.swing.JComboBox<>();
         jLConvertir1 = new javax.swing.JLabel();
         jConvertir = new javax.swing.JComboBox<>();
         jLConvertir2 = new javax.swing.JLabel();
-        jSCantidad = new javax.swing.JScrollPane();
-        jTCantidad = new javax.swing.JTextPane();
         jBtnAceptar = new javax.swing.JButton();
         jBtnCancelar = new javax.swing.JButton();
+        jTCantidad = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(490, 280));
 
-        jPanel1.setBackground(new java.awt.Color(102, 102, 0));
-        jPanel1.setAlignmentX(0.5F);
-        jPanel1.setAlignmentY(0.5F);
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jPanel2.setBackground(new java.awt.Color(102, 102, 0));
+        jPanel2.setAlignmentX(0.5F);
+        jPanel2.setAlignmentY(0.5F);
+        jPanel2.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
+        jPanel2.setMinimumSize(new java.awt.Dimension(534, 341));
+        jPanel2.setName(""); // NOI18N
+        jPanel2.setPreferredSize(new java.awt.Dimension(534, 341));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("CONVERSOR DE TEMPERATURA");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, 290, 30));
+        jPanel2.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, 290, 30));
 
         jLConvertir.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLConvertir.setForeground(new java.awt.Color(255, 255, 255));
         jLConvertir.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLConvertir.setText("a");
-        jPanel1.add(jLConvertir, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, 120, 30));
+        jPanel2.add(jLConvertir, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 190, 120, 30));
 
         jConvertirA.setBackground(new java.awt.Color(51, 204, 255));
         jConvertirA.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Celsius", "Faharenheit", "Kelvin", "Rankine", "Réaumur" }));
@@ -58,13 +61,13 @@ public class VistaTemperatura extends javax.swing.JFrame {
                 jConvertirAActionPerformed(evt);
             }
         });
-        jPanel1.add(jConvertirA, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 190, 130, -1));
+        jPanel2.add(jConvertirA, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 190, 130, -1));
 
         jLConvertir1.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLConvertir1.setForeground(new java.awt.Color(255, 255, 255));
         jLConvertir1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLConvertir1.setText("Cantidad");
-        jPanel1.add(jLConvertir1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, 120, 30));
+        jPanel2.add(jLConvertir1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, 120, 30));
 
         jConvertir.setBackground(new java.awt.Color(51, 0, 153));
         jConvertir.setForeground(new java.awt.Color(255, 255, 255));
@@ -76,23 +79,16 @@ public class VistaTemperatura extends javax.swing.JFrame {
                 jConvertirActionPerformed(evt);
             }
         });
-        jPanel1.add(jConvertir, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 130, 130, -1));
+        jPanel2.add(jConvertir, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 130, 130, -1));
 
         jLConvertir2.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jLConvertir2.setForeground(new java.awt.Color(255, 255, 255));
         jLConvertir2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLConvertir2.setText("Convertir");
-        jPanel1.add(jLConvertir2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 120, 30));
-
-        jTCantidad.setBackground(new java.awt.Color(255, 255, 255));
-        jTCantidad.setFont(new java.awt.Font("Malgun Gothic", 1, 14)); // NOI18N
-        jTCantidad.setForeground(new java.awt.Color(0, 0, 0));
-        jSCantidad.setViewportView(jTCantidad);
-
-        jPanel1.add(jSCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, 130, -1));
+        jPanel2.add(jLConvertir2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 120, 30));
 
         jBtnAceptar.setBackground(new java.awt.Color(255, 255, 0));
-        jBtnAceptar.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jBtnAceptar.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jBtnAceptar.setText("ACEPTAR");
         jBtnAceptar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jBtnAceptar.addActionListener(new java.awt.event.ActionListener() {
@@ -100,10 +96,10 @@ public class VistaTemperatura extends javax.swing.JFrame {
                 jBtnAceptarActionPerformed(evt);
             }
         });
-        jPanel1.add(jBtnAceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 140, 130, 50));
+        jPanel2.add(jBtnAceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, 130, 50));
 
         jBtnCancelar.setBackground(new java.awt.Color(255, 255, 0));
-        jBtnCancelar.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jBtnCancelar.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jBtnCancelar.setText("CANCELAR");
         jBtnCancelar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jBtnCancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -111,20 +107,23 @@ public class VistaTemperatura extends javax.swing.JFrame {
                 jBtnCancelarActionPerformed(evt);
             }
         });
-        jPanel1.add(jBtnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 210, 130, 50));
+        jPanel2.add(jBtnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 210, 130, 50));
+
+        jTCantidad.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
+        jPanel2.add(jTCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, 130, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 534, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 534, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 341, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -229,8 +228,7 @@ public class VistaTemperatura extends javax.swing.JFrame {
     private javax.swing.JLabel jLConvertir1;
     private javax.swing.JLabel jLConvertir2;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JScrollPane jSCantidad;
-    private javax.swing.JTextPane jTCantidad;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JTextField jTCantidad;
     // End of variables declaration//GEN-END:variables
 }

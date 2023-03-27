@@ -38,14 +38,17 @@ public class VistaMoneda extends javax.swing.JFrame {
         jLConvertir1 = new javax.swing.JLabel();
         jConvertir = new javax.swing.JComboBox<>();
         jLConvertir2 = new javax.swing.JLabel();
-        jSCantidad = new javax.swing.JScrollPane();
-        jTCantidad = new javax.swing.JTextPane();
         jBtnAceptar = new javax.swing.JButton();
         jBtnCancelar = new javax.swing.JButton();
+        jTCantidad = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(102, 102, 0));
+        jPanel1.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
+        jPanel1.setMinimumSize(new java.awt.Dimension(534, 341));
+        jPanel1.setNextFocusableComponent(jBtnAceptar);
+        jPanel1.setPreferredSize(new java.awt.Dimension(534, 341));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
@@ -93,16 +96,8 @@ public class VistaMoneda extends javax.swing.JFrame {
         jLConvertir2.setText("Convertir");
         jPanel1.add(jLConvertir2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 120, 30));
 
-        jTCantidad.setBackground(new java.awt.Color(255, 255, 255));
-        jTCantidad.setFont(new java.awt.Font("Malgun Gothic", 1, 14)); // NOI18N
-        jTCantidad.setForeground(new java.awt.Color(0, 0, 0));
-        jTCantidad.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jSCantidad.setViewportView(jTCantidad);
-
-        jPanel1.add(jSCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 250, 130, -1));
-
         jBtnAceptar.setBackground(new java.awt.Color(255, 255, 0));
-        jBtnAceptar.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jBtnAceptar.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jBtnAceptar.setText("ACEPTAR");
         jBtnAceptar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jBtnAceptar.addActionListener(new java.awt.event.ActionListener() {
@@ -110,10 +105,10 @@ public class VistaMoneda extends javax.swing.JFrame {
                 jBtnAceptarActionPerformed(evt);
             }
         });
-        jPanel1.add(jBtnAceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 140, 130, 50));
+        jPanel1.add(jBtnAceptar, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, 130, 50));
 
         jBtnCancelar.setBackground(new java.awt.Color(255, 255, 0));
-        jBtnCancelar.setFont(new java.awt.Font("Malgun Gothic", 0, 18)); // NOI18N
+        jBtnCancelar.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
         jBtnCancelar.setText("CANCELAR");
         jBtnCancelar.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jBtnCancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -121,7 +116,10 @@ public class VistaMoneda extends javax.swing.JFrame {
                 jBtnCancelarActionPerformed(evt);
             }
         });
-        jPanel1.add(jBtnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 210, 130, 50));
+        jPanel1.add(jBtnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 210, 130, 50));
+
+        jTCantidad.setFont(new java.awt.Font("Malgun Gothic", 1, 18)); // NOI18N
+        jPanel1.add(jTCantidad, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 249, 130, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -207,7 +205,6 @@ public class VistaMoneda extends javax.swing.JFrame {
     private javax.swing.JLabel jLConvertir2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JScrollPane jSCantidad;
-    private javax.swing.JTextPane jTCantidad;
+    private javax.swing.JTextField jTCantidad;
     // End of variables declaration//GEN-END:variables
 }
