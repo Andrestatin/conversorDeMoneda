@@ -6,9 +6,9 @@
 </p>
 <br>
 <h3>DESCRIPCIÓN<h3>
-Conversor de monedas y temperatura, desarrollado en java bajo las librerias de java swing, JFrame. Hace la conversión respectiva entre Dolares, Peso Colombiano, Euros, Libra esterlina,
-Yen jápones y Won sur-coreano, según la selección que el usuario haga, siempre estará actualizada y bajo los valores brindados por la api Open Exchege Rates; de la misma forma hace la 
-conversión entre temperaturas, grados Celsius, Faharenheit, Kelvin, Rankine, Réaumur de manera muy sensilla e intuitiva.
+Conversor de monedas y temperatura, desarrollado en java bajo las librerias de Java swing, JFrame. Hace la conversión respectiva entre Dolares, Peso Colombiano, Euros, Libra esterlina,
+Yen jápones y Won sur-coreano, según la selección que el usuario haga, siempre estará actualizada y bajo los valores brindados por la api Open Exchange Rates; de la misma forma hace la 
+conversión entre temperaturas, grados Celsius, Faharenheit, Kelvin, Rankine, Réaumur de manera muy sencilla e intuitiva.
 <br>
 <br>
 <p align="center">
@@ -25,7 +25,7 @@ conversión entre temperaturas, grados Celsius, Faharenheit, Kelvin, Rankine, R�
 </p>
 
 
-## :hammer:Esta es una pequeña y rapida muestra del funcionamiento del programa
+## :hammer:Esta es una pequeña y rápida muestra del funcionamiento del programa
 
 https://user-images.githubusercontent.com/83375750/227843819-9a220a74-e570-4aaf-827c-fb5d7bbcf9d5.mp4
 
