@@ -35,12 +35,12 @@ https://user-images.githubusercontent.com/83375750/227843819-9a220a74-e570-4aaf-
 ![logo_netbeans](https://user-images.githubusercontent.com/83375750/227841090-d69f1e02-ed2d-457a-9196-8e0d004e7d0d.jpg)
 ![github_logo](https://user-images.githubusercontent.com/83375750/227843228-55c2f4aa-62f0-40c7-9d7f-9f647cdc676e.png)
 
-\## 📁 Cómo acceder al proyecto
+## 📁 Cómo acceder al proyecto
 1. Abre el enlace al repositorio: https://Andrestatin@github.com/Andrestatin/conversorDeMoneda
 2. Haz clic en el botón "Code" (o "Código") y selecciona "Download ZIP" (o "Descargar ZIP").
 3. Guarda el archivo ZIP en tu computadora y descomprímelo.
 
-\## 🛠️ Abre y ejecuta el proyecto
+## 🛠️ Abre y ejecuta el proyecto
 Abre una IDE de Java, como Eclipse o NetBeans.
 
 1. Selecciona "File" (o "Archivo") en la barra de menú y luego "Open project" (o "Abrir proyecto").
@@ -48,7 +48,7 @@ Abre una IDE de Java, como Eclipse o NetBeans.
 3. Se abrirá el proyecto en tu IDE de Java.
 4. Ahora puedes ejecutar el programa abriendo la clase VistaConversores y posteriormente haciendo clic en el botón "Run" (o "Ejecutar") en la barra de herramientas.
 
-## Autor
+## 🧔Autor
 <p>Fernando Andrés Pulido</p>
 <table >
 <tr>
