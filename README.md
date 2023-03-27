@@ -1,5 +1,4 @@
-# conversorDeMoneda
-Conversor de divisas y temperatura
+
 <h1 align= "center">Conversor de divisas y temperatura</h1>
 
 
